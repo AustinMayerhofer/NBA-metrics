@@ -11,3 +11,4 @@
 
 ## Teams
 - columns are Rk,Team,Overall,Home,Road,E,W,A,C,SE,NW,P,SW,Pre,Post,≤3,≥10,Dec,Jan,Feb,Mar,Apr,May
+- for W-L columns, all cells formatted as {int}-{int}
