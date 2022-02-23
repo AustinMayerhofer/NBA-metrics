@@ -12,3 +12,8 @@
 ## Teams
 - columns are Rk,Team,Overall,Home,Road,E,W,A,C,SE,NW,P,SW,Pre,Post,≤3,≥10,Dec,Jan,Feb,Mar,Apr,May
 - for W-L columns, all cells formatted as {int}-{int}
+
+
+## Ordering of Data that has to be read in
+1. Teams
+2. Player Per Game
