@@ -30,7 +30,7 @@ TEAM_NAME = {
     'ORL': 'Orlando Magic',
     'PHI': 'Philadelphia 76ers',
     'PHO': 'Phoenix Suns',
-    'POR': 'Portland Trailblazers',
+    'POR': 'Portland Trail Blazers',
     'SAC': 'Sacramento Kings',
     'SAS': 'San Antonio Spurs',
     'TOR': 'Toronto Raptors',
