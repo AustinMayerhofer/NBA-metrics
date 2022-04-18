@@ -4,8 +4,6 @@ ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a 
 NUM_GAMES_2020_21 = 72
 NUM_GAMES_2021_22 = 82
 
-TEST = 5
-
 TEAM_NAME = {
     'ATL': 'Atlanta Hawks',
     'BOS': 'Boston Celtics',
