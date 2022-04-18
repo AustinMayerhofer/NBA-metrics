@@ -3,6 +3,11 @@ EVERYTHING_AFTER_DASH = '(?<=-).+' # regex for anything after a dash
 ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a sort
 NUM_GAMES_2020_21 = 72
 NUM_GAMES_2021_22 = 82
+<<<<<<< HEAD
+=======
+
+TEST = 5
+>>>>>>> 3d084cffb601b3f43636c679daca77a8d452ec91
 
 TEAM_NAME = {
     'ATL': 'Atlanta Hawks',
