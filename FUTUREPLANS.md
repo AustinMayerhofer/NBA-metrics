@@ -26,3 +26,6 @@
 ## Ordering of Data that has to be read in
 1. Teams
 2. Player Per Game
+
+# Installation
+- kernel uses python 3.8.9
