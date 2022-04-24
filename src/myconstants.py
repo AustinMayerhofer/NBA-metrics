@@ -3,6 +3,11 @@ EVERYTHING_AFTER_DASH = '(?<=-).+' # regex for anything after a dash
 ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a sort
 
 NUM_GAMES = {
+    '2013-14': 82,
+    '2014-15': 82,
+    '2015-16': 82,
+    '2016-17': 82,
+    '2017-18': 82,
     '2018-19': 82,
     '2019-20': 63,
     '2020-21': 72,
