@@ -19,6 +19,7 @@ TEAM_NAME = {
     'BOS': 'Boston Celtics',
     'BRK': 'Brooklyn Nets',
     'CHI': 'Chicago Bulls',
+    'CHA': 'Charlotte Bobcats',
     'CHO': 'Charlotte Hornets',
     'CLE': 'Cleveland Cavaliers',
     'DAL': 'Dallas Mavericks',
