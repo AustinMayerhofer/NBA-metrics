@@ -41,6 +41,7 @@ TEAM_NAME = {
     'MIA': 'Miami Heat',
     'MIL': 'Milwaukee Bucks',
     'MIN': 'Minnesota Timberwolves',
+    'NJN': 'New Jersey Nets',
     'NOH': 'New Orleans Hornets',
     'NOP': 'New Orleans Pelicans',
     'NYK': 'New York Knicks',
