@@ -1,8 +1,15 @@
 EVERYTHING_AFTER_BACKSLASH = '(?<=\\\\).+' # regex for anything after a backslash
 EVERYTHING_AFTER_DASH = '(?<=-).+' # regex for anything after a dash
+STAR_AT_END = '\*$' # regex for a star at the end of a string
 ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a sort
 
 NUM_GAMES = {
+    '2007-08': 82,
+    '2008-09': 82,
+    '2009-10': 82,
+    '2010-11': 82,
+    '2011-12': 66,
+    '2012-13': 82,
     '2013-14': 82,
     '2014-15': 82,
     '2015-16': 82,
@@ -19,6 +26,7 @@ TEAM_NAME = {
     'BOS': 'Boston Celtics',
     'BRK': 'Brooklyn Nets',
     'CHI': 'Chicago Bulls',
+    'CHA': 'Charlotte Bobcats',
     'CHO': 'Charlotte Hornets',
     'CLE': 'Cleveland Cavaliers',
     'DAL': 'Dallas Mavericks',
@@ -33,6 +41,7 @@ TEAM_NAME = {
     'MIA': 'Miami Heat',
     'MIL': 'Milwaukee Bucks',
     'MIN': 'Minnesota Timberwolves',
+    'NOH': 'New Orleans Hornets',
     'NOP': 'New Orleans Pelicans',
     'NYK': 'New York Knicks',
     'OKC': 'Oklahoma City Thunder',
