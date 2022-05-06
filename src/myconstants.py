@@ -7,6 +7,13 @@ PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative v
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
 
 NUM_GAMES = {
+    '2000-01': 82,
+    '2001-02': 82,
+    '2002-03': 82,
+    '2003-04': 82,
+    '2004-05': 82,
+    '2005-06': 82,
+    '2006-07': 82,
     '2007-08': 82,
     '2008-09': 82,
     '2009-10': 82,
@@ -46,6 +53,7 @@ TEAM_NAME = {
     'MIN': 'Minnesota Timberwolves',
     'NJN': 'New Jersey Nets',
     'NOH': 'New Orleans Hornets',
+    'NOK': 'New Orleans/Oklahoma City Hornets',
     'NOP': 'New Orleans Pelicans',
     'NYK': 'New York Knicks',
     'OKC': 'Oklahoma City Thunder',
@@ -55,6 +63,7 @@ TEAM_NAME = {
     'POR': 'Portland Trail Blazers',
     'SAC': 'Sacramento Kings',
     'SAS': 'San Antonio Spurs',
+    'SEA': 'Seattle SuperSonics',
     'TOR': 'Toronto Raptors',
     'UTA': 'Utah Jazz',
     'WAS': 'Washington Wizards'
