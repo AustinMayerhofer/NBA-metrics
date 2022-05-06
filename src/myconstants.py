@@ -3,6 +3,9 @@ EVERYTHING_AFTER_DASH = '(?<=-).+' # regex for anything after a dash
 STAR_AT_END = '\*$' # regex for a star at the end of a string
 ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a sort
 
+PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative values
+PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
+
 NUM_GAMES = {
     '2007-08': 82,
     '2008-09': 82,
@@ -41,6 +44,7 @@ TEAM_NAME = {
     'MIA': 'Miami Heat',
     'MIL': 'Milwaukee Bucks',
     'MIN': 'Minnesota Timberwolves',
+    'NJN': 'New Jersey Nets',
     'NOH': 'New Orleans Hornets',
     'NOP': 'New Orleans Pelicans',
     'NYK': 'New York Knicks',
