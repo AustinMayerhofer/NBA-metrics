@@ -7,6 +7,16 @@ PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative v
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
 
 NUM_GAMES = {
+    '1990-91': 82,
+    '1991-92': 82,
+    '1992-93': 82,
+    '1993-94': 82,
+    '1994-95': 82,
+    '1995-96': 82,
+    '1996-97': 82,
+    '1997-98': 82,
+    '1998-99': 50,
+    '1999-00': 82,
     '2000-01': 82,
     '2001-02': 82,
     '2002-03': 82,
@@ -31,6 +41,8 @@ NUM_GAMES = {
     '2021-22': 82
 }
 
+# some teams like Charlotte use both 'CHH' and 'CHO' for different seasons, can't have multiple 'Charlotte Hornets' keys in TEAM_CODE dict
+# for workaround, see use_unique_team_code() in data_cleaning.ipynb
 TEAM_NAME = {
     'ATL': 'Atlanta Hawks',
     'BOS': 'Boston Celtics',
@@ -66,6 +78,7 @@ TEAM_NAME = {
     'SEA': 'Seattle SuperSonics',
     'TOR': 'Toronto Raptors',
     'UTA': 'Utah Jazz',
+    'VAN': 'Vancouver Grizzlies',
     'WAS': 'Washington Wizards'
 }
 
