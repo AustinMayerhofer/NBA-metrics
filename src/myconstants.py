@@ -79,7 +79,8 @@ TEAM_NAME = {
     'TOR': 'Toronto Raptors',
     'UTA': 'Utah Jazz',
     'VAN': 'Vancouver Grizzlies',
-    'WAS': 'Washington Wizards'
+    'WAS': 'Washington Wizards',
+    'WSB': 'Washington Bullets'
 }
 
 TEAM_CODE = {v: k for k, v in TEAM_NAME.items()}
