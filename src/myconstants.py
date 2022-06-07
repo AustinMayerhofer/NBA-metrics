@@ -7,6 +7,16 @@ PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative v
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
 
 NUM_GAMES = {
+    '1980-81': 82,
+    '1981-82': 82,
+    '1982-83': 82,
+    '1983-84': 82,
+    '1984-85': 82,
+    '1985-86': 82,
+    '1986-87': 82,
+    '1987-88': 82,
+    '1988-89': 82,
+    '1989-90': 82,
     '1990-91': 82,
     '1991-92': 82,
     '1992-93': 82,
