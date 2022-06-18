@@ -7,6 +7,26 @@ PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative v
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
 
 NUM_GAMES = {
+    '1970-71': 82,
+    '1971-72': 82,
+    '1972-73': 82,
+    '1973-74': 82,
+    '1974-75': 82,
+    '1975-76': 82,
+    '1976-77': 82,
+    '1977-78': 82,
+    '1978-79': 82,
+    '1979-80': 82,
+    '1980-81': 82,
+    '1981-82': 82,
+    '1982-83': 82,
+    '1983-84': 82,
+    '1984-85': 82,
+    '1985-86': 82,
+    '1986-87': 82,
+    '1987-88': 82,
+    '1988-89': 82,
+    '1989-90': 82,
     '1990-91': 82,
     '1991-92': 82,
     '1992-93': 82,
@@ -47,6 +67,7 @@ TEAM_NAME = {
     'ATL': 'Atlanta Hawks',
     'BOS': 'Boston Celtics',
     'BRK': 'Brooklyn Nets',
+    'BUF': 'Buffalo Braves',
     'CHI': 'Chicago Bulls',
     'CHA': 'Charlotte Bobcats',
     'CHO': 'Charlotte Hornets',
@@ -57,6 +78,7 @@ TEAM_NAME = {
     'GSW': 'Golden State Warriors',
     'HOU': 'Houston Rockets',
     'IND': 'Indiana Pacers',
+    'KCK': 'Kansas City Kings',
     'LAC': 'Los Angeles Clippers',
     'LAL': 'Los Angeles Lakers',
     'MEM': 'Memphis Grizzlies',
@@ -65,9 +87,11 @@ TEAM_NAME = {
     'MIN': 'Minnesota Timberwolves',
     'NJN': 'New Jersey Nets',
     'NOH': 'New Orleans Hornets',
+    'NOJ': 'New Orleans Jazz',
     'NOK': 'New Orleans/Oklahoma City Hornets',
     'NOP': 'New Orleans Pelicans',
     'NYK': 'New York Knicks',
+    'NYN': 'New York Nets',
     'OKC': 'Oklahoma City Thunder',
     'ORL': 'Orlando Magic',
     'PHI': 'Philadelphia 76ers',
@@ -76,10 +100,12 @@ TEAM_NAME = {
     'SAC': 'Sacramento Kings',
     'SAS': 'San Antonio Spurs',
     'SEA': 'Seattle SuperSonics',
+    'SDC': 'San Diego Clippers',
     'TOR': 'Toronto Raptors',
     'UTA': 'Utah Jazz',
     'VAN': 'Vancouver Grizzlies',
-    'WAS': 'Washington Wizards'
+    'WAS': 'Washington Wizards',
+    'WSB': 'Washington Bullets'
 }
 
 TEAM_CODE = {v: k for k, v in TEAM_NAME.items()}
