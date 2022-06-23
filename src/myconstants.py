@@ -5,6 +5,7 @@ ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a 
 
 PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative values
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
+MIN_GAMES_PCT = 0.6 # percentage of games a player needs to play to qualify for a season
 
 NUM_GAMES = {
     '1970-71': 82,
@@ -60,6 +61,8 @@ NUM_GAMES = {
     '2020-21': 72,
     '2021-22': 82
 }
+
+MIN_GAMES = {k: v * MIN_GAMES_PCT for k, v in NUM_GAMES.items()}
 
 # some teams like Charlotte use both 'CHH' and 'CHO' for different seasons, can't have multiple 'Charlotte Hornets' keys in TEAM_CODE dict
 # for workaround, see use_unique_team_code() in data_cleaning.ipynb
