@@ -5,9 +5,11 @@ ALPHABETICALLY_LAST_STRING = 'ZZZ' # string that comes last alphabetically in a 
 
 PLAYER_SCORE_ADDITION = 6 # amount to add to PlayerScore to have less negative values
 PLAYER_SCORE_EXPONENT = 1.5 # raise positive PlayerScores to this value to make higher scores more significant
-MIN_GAMES_PCT = 0.6 # percentage of games a player needs to play to qualify for a season
+NBA_MIN_GAMES_PCT = 0.6 # percentage of NBA games a player needs to play to qualify for a season
+ABA_MIN_GAMES_PCT = 0.6 # percentage of ABA games a player needs to play to qualify for a season
 
-NUM_GAMES = {
+
+NBA_NUM_GAMES = {
     '1970-71': 82,
     '1971-72': 82,
     '1972-73': 82,
@@ -62,7 +64,21 @@ NUM_GAMES = {
     '2021-22': 82
 }
 
-MIN_GAMES = {k: v * MIN_GAMES_PCT for k, v in NUM_GAMES.items()}
+NBA_MIN_GAMES = {k: v * NBA_MIN_GAMES_PCT for k, v in NBA_NUM_GAMES.items()}
+
+ABA_NUM_GAMES = {
+    '1967-68': 78,
+    '1968-69': 78,
+    '1969-70': 84,
+    '1970-71': 84,
+    '1971-72': 84,
+    '1972-73': 84,
+    '1973-74': 84,
+    '1974-75': 84,
+    '1975-76': 83
+}
+
+ABA_MIN_GAMES = {k: v * ABA_MIN_GAMES_PCT for k, v in ABA_NUM_GAMES.items()}
 
 # some teams like Charlotte use both 'CHH' and 'CHO' for different seasons, can't have multiple 'Charlotte Hornets' keys in TEAM_CODE dict
 # for workaround, see use_unique_team_code() in data_cleaning.ipynb
@@ -82,6 +98,7 @@ TEAM_NAME = {
     'HOU': 'Houston Rockets',
     'IND': 'Indiana Pacers',
     'KCK': 'Kansas City Kings',
+    'KCO': 'Kansas City-Omaha Kings',
     'KEN': 'Kentucky Colonels',
     'LAC': 'Los Angeles Clippers',
     'LAL': 'Los Angeles Lakers',
@@ -89,6 +106,7 @@ TEAM_NAME = {
     'MIA': 'Miami Heat',
     'MIL': 'Milwaukee Bucks',
     'MIN': 'Minnesota Timberwolves',
+    'MMS': 'Memphis Sounds',
     'NJN': 'New Jersey Nets',
     'NOH': 'New Orleans Hornets',
     'NOJ': 'New Orleans Jazz',
@@ -103,6 +121,7 @@ TEAM_NAME = {
     'POR': 'Portland Trail Blazers',
     'SAC': 'Sacramento Kings',
     'SAS': 'San Antonio Spurs',
+    'SDA': 'San Diego Conquistadors',
     'SDC': 'San Diego Clippers',
     'SDS': 'San Diego Sails',
     'SEA': 'Seattle SuperSonics',
